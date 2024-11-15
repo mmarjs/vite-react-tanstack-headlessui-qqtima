@@ -1,0 +1,110 @@
+{
+  "title": "Profile information",
+  "personal": {
+    "title": "Personal information",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "dateOfBirth": "Date of birth",
+    "communicationLanguage": "Communication language",
+    "countryOfResidence": "Country of residence",
+    "setLanguage": {
+      "title": "Set communication language",
+      "label": "Language",
+      "action": "Set language",
+      "success": "Language set successfully"
+    }
+  },
+  "account": {
+    "title": "Account information",
+    "clientId": "Client ID",
+    "password": "Password",
+    "email": "Email",
+    "mobileNumber": "Mobile number",
+    "notificationPreferences": "Notification preferences",
+    "twoFactorAuthentication": "Two-factor authentication",
+    "changePassword": {
+      "title": "Change password",
+      "currentPassword": "Current password",
+      "currentPasswordPlaceholder": "Enter current password",
+      "newPassword": "New password",
+      "newPasswordPlaceholder": "Enter new password",
+      "action": "Continue",
+      "success": "Password changed successfully"
+    },
+    "changeEmail": {
+      "title": "Change email",
+      "currentEmail": "Current email",
+      "newEmail": "New email",
+      "newEmailPlaceholder": "Enter new email",
+      "action": "Continue",
+      "success": "Email changed successfully"
+    },
+    "changePhone": {
+      "title": "Change phone number",
+      "currentMobileNumber": "Current mobile number",
+      "newMobileNumber": "New mobile number",
+      "newMobileNumberPlaceholder": "+1234567890",
+      "action": "Continue",
+      "success": "Phone number changed successfully"
+    },
+    "setTwoFactorAuthentication": {
+      "title": "Two-factor authentication",
+      "disabled": "Two-factor authentication is not enabled",
+      "enabled": "Two-factor authentication is enabled",
+      "code": {
+        "scan": "Scan the QR-code with Google Authenticator and enter the code below",
+        "qrCode": "QR Code",
+        "manual": "Add this code in your Authenticator app if you are unable to scan the QR-code",
+        "label": "Code",
+        "placeholder": "Enter code"
+      },
+      "whatIs2FA": "What is two-factor authentication?",
+      "androidAuthenticator": "Google Authenticator for Android",
+      "iosAuthenticator": "Google Authenticator for iOS",
+      "enable": "Enable two-factor authentication",
+      "disable": "Disable two-factor authentication",
+      "success": {
+        "enabled": "Two-factor authentication is enabled",
+        "disabled": "Two-factor authentication is disabled"
+      },
+      "errors": {
+        "required": "Authentication code is required",
+        "tooLong": "Code must not exceed 255 characters"
+      }
+    },
+    "method": {
+      "sendViaEmail": "Send PIN via email",
+      "sendViaSms": "Send PIN via SMS"
+    },
+    "pin": {
+      "label": "PIN",
+      "pincode": "PIN CODE",
+      "description": {
+        "email": "To proceed please enter the PIN that has been sent to email {{email}}",
+        "sms": "To proceed please enter the PIN that has been sent to your current mobile number"
+      },
+      "placeholder": {
+        "email": "Please enter the PIN that has been sent to your email",
+        "sms": "Please enter the PIN that has been sent to your current mobile number"
+      },
+      "resend": "Resend",
+      "resendInXSeconds": "Resend in {{seconds}} seconds",
+      "didntGetPin": "Didn't receive your PIN CODE? "
+    }
+  },
+  "status": {
+    "title": "Profile status",
+    "yourProfileIs": "Your profile is",
+    "approved": "approved",
+    "pending": "pending",
+    "declined": "declined",
+    "expired": "expired",
+    "notUploaded": "not uploaded",
+    "documents": {
+      "proofOfIdentity": "Proof of Identity",
+      "proofOfResidence": "Proof of Residence"
+    },
+    "upload": "Upload",
+    "reupload": "Reupload"
+  }
+}

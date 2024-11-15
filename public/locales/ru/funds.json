@@ -1,0 +1,77 @@
+{
+  "transactions": {
+    "pending": {
+      "title": "Текущие трансакции",
+      "tabs": {
+        "pendingTransactions": "Текущие транзакции",
+        "pendingTransfers": "Текущие переводы"
+      },
+      "cancel": {
+        "tooltip": "Отменить транзакцию",
+        "success": "Транзакция отменена"
+      }
+    },
+    "history": {
+      "title": "История транзакций",
+      "tabs": {
+        "transactionsHistory": "История транзакций",
+        "transfersHistory": "История переводов"
+      },
+      "filters": {
+        "label": "Фильтры",
+        "title": "Фильтровать транзакции",
+        "modificators": {
+          "any": "Любое",
+          "specific": "Заданное",
+          "contains": "Содержит",
+          "doesnotContain": "Не содержит",
+          "approved": "Подтвержден",
+          "declined": "Отклонен",
+          "cancelled": "Отменен",
+          "today": "Сегодня",
+          "yesterday": "Вчера",
+          "thisMonth": "В этом месяце",
+          "lastMonth": "В прошлом месяце",
+          "exactDate": "Точная дата"
+        },
+        "discard": "Отменить",
+        "apply": "Применить"
+      },
+      "showingXfromY": "Показано записей: <1>{{ current }}</1> из <4>{{ total }}</4>"
+    },
+    "notFound": {
+      "pendingTransactions": "Нет текущиих транзакций",
+      "pendingTransfers": "Нет текущиих переводов",
+      "transactionsHistory": "Нет записей в истории",
+      "transfersHistory": "Нет записей в истории"
+    },
+    "columns": {
+      "id": "Id",
+      "type": "Тип",
+      "status": "Статус",
+      "paymentSystem": "Платежная система",
+      "account": "Аккаунт",
+      "amount": "Сумма",
+      "currency": "Валюта",
+      "createdAt": "Дата",
+      "declineReason": "Причина отклонения",
+      "action": "Действие"
+    },
+    "status": {
+      "any": "Любой",
+      "fresh": "Новый",
+      "pending": "Ожидает",
+      "pending check": "Ожидает проверки",
+      "approved": "Подтвержден",
+      "processed": "Обработан",
+      "declined": "Отклонен",
+      "cancelled": "Отменен",
+      "splitted": "Разделен",
+      "error": "Ошибка"
+    },
+    "details": {
+      "title": "Транзакция {{ id }}",
+      "action": "Закрыть"
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "select": "Select",
+  "search": "Search",
+  "sort": "Sort",
+  "close": "Close",
+  "selectYourLanguage": "Select Your Language",
+  "showMore": "Show More",
+  "header": {
+    "messages": "Messages",
+    "contactYourAccountManager": "Contact Your Account Manager"
+  },
+  "navigation": {
+    "quickActions": {
+      "title": "Quick Actions"
+    },
+    "tradersMenu": {
+      "title": "Trader's Menu",
+      "accounts": {
+        "title": "Accounts",
+        "openDemoAccount": "Open Demo Account",
+        "openAccount": "Open Account",
+        "accountsOverview": "Accounts Overview"
+      },
+      "funds": {
+        "title": "Funds",
+        "deposit": "Deposit Funds",
+        "withdraw": "Withdraw Funds",
+        "transactions": "Transactions History"
+      },
+      "profile": {
+        "title": "Profile",
+        "documents": "Documents"
+      },
+      "tradingPlatforms": "Trading Platforms",
+      "tradingTools": "Trading Tools",
+      "tradingCalculator": "Trading Calculator",
+      "howTo": "How To"
+    },
+    "ibMenu": {
+      "title": "IB Menu",
+      "dashboard": "Dashboard",
+      "performanceDashboard": "Performance Dashboard",
+      "commissionSettings": "Commission Settings",
+      "marketingTools": {
+        "title": "Marketing Tools"
+      },
+      "reports": {
+        "title": "Reports"
+      }
+    },
+    "myAccount": {
+      "title": "My Account",
+      "profile": "Profile",
+      "helpDesk": "Help Desk",
+      "logout": "Logout"
+    }
+  },
+  "errors": {
+    "common": {
+      "title": "Oops!",
+      "subtitle": "Error occurred",
+      "backToHome": "Home Page"
+    },
+    "404": {
+      "title": "We can't find that page",
+      "subtitle": "We're fairly sure that page used to be here, but seems to have gone missing. We do apologise on its behalf."
+    },
+    "form": {
+      "generic": {
+        "required": "This field is required",
+        "invalid": "This field value is invalid",
+        "number": "This field must be a number",
+        "positive": "This field must be a positive number"
+      },
+      "email": {
+        "required": "Email is required",
+        "tooLong": "Email must be less than 256 characters",
+        "invalid": "Must be a valid email"
+      },
+      "phone": {
+        "required": "Phone number is required",
+        "invalid": "Phone format must be +1234567890"
+      },
+      "pin": {
+        "required": "Pin code is required",
+        "invalid": "Pin code must be 4 characters"
+      },
+      "password": {
+        "required": "Password is required",
+        "tooShort": "Password must be at least 8 characters long",
+        "tooLong": "Password must not exceed 50 characters",
+        "invalid": "Password must adhere to the rules below"
+      }
+    }
+  },
+  "warnings": {
+    "documentExpired": {
+      "title": "Your proof of identity: Passport, National ID or Driving License is expired.",
+      "subtitle": "Please upload a new document by clicking here."
+    }
+  },
+  "passwordRules": {
+    "length": "Use from 8 to 50 characters",
+    "case": "Use both uppercase and lowercase letters",
+    "number": "Use a combination of numbers and English letters"
+  },
+  "table": {
+    "showDetails": "Show details"
+  }
+}

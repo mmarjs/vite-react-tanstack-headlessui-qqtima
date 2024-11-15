@@ -1,0 +1,77 @@
+{
+  "transactions": {
+    "pending": {
+      "title": "Pending transactions",
+      "tabs": {
+        "pendingTransactions": "Pending transactions",
+        "pendingTransfers": "Pending transfers"
+      },
+      "cancel": {
+        "tooltip": "Cancel withdrawal",
+        "success": "Withdrawal is cancelled"
+      }
+    },
+    "history": {
+      "title": "Transactions history",
+      "tabs": {
+        "transactionsHistory": "Transactions history",
+        "transfersHistory": "Transfers history"
+      },
+      "filters": {
+        "label": "Filters",
+        "title": "Filter transitions",
+        "modificators": {
+          "any": "Any",
+          "specific": "Specific",
+          "contains": "Contains",
+          "doesnotContain": "Does not contain",
+          "approved": "Approved",
+          "declined": "Declined",
+          "cancelled": "Cancelled",
+          "today": "Today",
+          "yesterday": "Yesterday",
+          "thisMonth": "This month",
+          "lastMonth": "Last month",
+          "exactDate": "Exact date"
+        },
+        "discard": "Discard",
+        "apply": "Apply"
+      },
+      "showingXfromY": "Showing <1>{{ current }}</1> records from <4>{{ total }}</4>"
+    },
+    "notFound": {
+      "pendingTransactions": "There are no pending transactions",
+      "pendingTransfers": "There are no pending transfers",
+      "transactionsHistory": "There are no transactions history records",
+      "transfersHistory": "There are no transfers history records"
+    },
+    "columns": {
+      "id": "Id",
+      "type": "Type",
+      "status": "Status",
+      "paymentSystem": "Payment system",
+      "account": "Account",
+      "amount": "Amount",
+      "currency": "Currency",
+      "createdAt": "Date",
+      "declineReason": "Decline reason",
+      "action": "Action"
+    },
+    "status": {
+      "any": "Any",
+      "fresh": "Fresh",
+      "pending": "Pending",
+      "pending check": "Pending Check",
+      "approved": "Approved",
+      "processed": "Processed",
+      "declined": "Declined",
+      "cancelled": "Cancelled",
+      "splitted": "Splitted",
+      "error": "Error"
+    },
+    "details": {
+      "title": "Transaction Id {{ id }}",
+      "action": "Close"
+    }
+  }
+}

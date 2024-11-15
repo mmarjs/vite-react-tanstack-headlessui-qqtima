@@ -1,0 +1,162 @@
+{
+  "open": {
+    "title": "Open new account",
+    "actions": {
+      "openLive": "Open Live account",
+      "openDemo": "Open Demo Account",
+      "create": "Create an account"
+    },
+    "features": {
+      "unlimited": "Unlimited",
+      "spreadFrom": "Spread from {{spreadFrom}}",
+      "commission": "Commission from {{commission}}",
+      "noCommission": "No commission"
+    },
+    "accountType": {
+      "ecn-plus": {
+        "description": "Most popular! A great account for all types of traders"
+      },
+      "oqtima-one": {
+        "description": "Standard account with micro lots instead. Perfect for beginners"
+      }
+    },
+    "accountCategory": {
+      "label": "Account category",
+      "demo": {
+        "label": "Demo",
+        "description": "Risk-free account. Trade with virtual money"
+      },
+      "real": {
+        "label": "Real",
+        "description": "Trade with real money and withdraw any profit you may make"
+      }
+    },
+    "tradingPlatform": {
+      "label": "Trading platform",
+      "maxLeverage": "Maximum leverage up to {{maxLeverage}}"
+    },
+    "leverage": {
+      "label": "Leverage",
+      "placeholder": "Enter a leverage",
+      "custom": "Custom"
+    },
+    "initialBalance": {
+      "label": "Starting balance",
+      "placeholder": "Enter a starting balance"
+    },
+    "currency": {
+      "label": "Currency"
+    },
+    "errors": {
+      "leverage": {
+        "invalid": "Leverage must be a positive number",
+        "tooSmall": "The leverage must be at least 1",
+        "tooLarge": "The leverage must not exceed 10.000"
+      },
+      "initialBalance": {
+        "required": "Starting balance number is required",
+        "tooSmall": "Starting balance must be a positive number",
+        "tooLarge": "Starting balance must not exceed 1.000.000.000"
+      },
+      "currency": {
+        "required": "Currency is required"
+      },
+      "create": {
+        "accountTypeNotFound": "Account type not found"
+      }
+    },
+    "success": "Account is created. Password will be sent to your email"
+  },
+  "overview": {
+    "wallets": {
+      "title": "Wallets",
+      "actions": {
+        "history": "History",
+        "deposit": "Deposit"
+      }
+    },
+    "myAccounts": {
+      "title": "My Accounts",
+      "actions": {
+        "openNew": "Open New Account",
+        "setBalance": "Set Balance",
+        "deposit": "Deposit"
+      },
+      "categories": {
+        "live": "Live",
+        "demo": "Demo",
+        "archived": "Archived"
+      },
+      "statuses": {
+        "new": "New",
+        "readonly": "Read-only"
+      },
+      "sort": {
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "freeMargin": "Free Margin",
+        "nickname": "Nickname"
+      },
+      "details": {
+        "type": "Type",
+        "server": "Server",
+        "number": "Number",
+        "freeMargin": "Free Margin",
+        "actualLeverage": "Actual Leverage",
+        "maxLeverage": "Max Leverage",
+        "status": "Status"
+      },
+      "menu": {
+        "accountInformation": "Account information",
+        "changeMaxLeverage": "Change max leverage",
+        "renameAccount": "Rename account",
+        "changeTradingPassword": "Change trading password"
+      },
+      "noAccounts": "You do not have any {{category}} accounts"
+    }
+  },
+  "information": {
+    "title": "Account information",
+    "server": "Server",
+    "login": "Login",
+    "nickname": "Nickname",
+    "actualLeverage": "Actual Leverage",
+    "maxLeverage": "Max Leverage",
+    "freeMargin": "Free Margin",
+    "action": "Exit"
+  },
+  "setLeverage": {
+    "title": "Set maximum leverage",
+    "account": "Account",
+    "tip": "Your actual leverage may vary depending on various conditions",
+    "details": "<0>Margin requirements for some instruments are fixed: e.g. margin requirements for BTCUSD is fixed at 1:400 (or 0.25% of trade amount). <1>Read more</1></0><1>During high-impact news and before weekends and holidays, maximum leverage is capped at 1:200 for currency pairs and gold. <1>Read more</1></1><2>Maximum available leverage depends on your equity amount. Leverage of 1:2000 is only available when your equity is less than 5,000 USD. <1>Read more</1></2>",
+    "action": "Set Maximum Leverage",
+    "errors": {
+      "invalid": "Leverage must be a positive number",
+      "tooSmall": "The leverage must be at least 1",
+      "tooLarge": "The leverage must not exceed 10.000"
+    },
+    "success": "Maximum leverage is set to 1:{{leverage}}"
+  },
+  "rename": {
+    "title": "Rename account",
+    "account": "Account",
+    "tip": "If you have multiple accounts, you can give each one a unique name to make navigation easier.",
+    "newNickname": "New Nickname",
+    "newNicknamePlaceholder": "Enter a new nickname",
+    "action": "Rename Account",
+    "errors": {
+      "required": "New nickname is required",
+      "tooLong": "Nickname must not exceed 50 characters"
+    },
+    "success": "Account is renamed to {{name}}"
+  },
+  "changePassword": {
+    "title": "Change trading password",
+    "account": "Account",
+    "label": "Password",
+    "placeholder": "Enter a password",
+    "action": "Change Password",
+    "success": "Password is changed"
+  }
+}

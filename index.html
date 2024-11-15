@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/oqtima.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OQtima</title>
+  </head>
+  <style>
+    :root {
+      color-scheme: light dark;
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color: rgba(255, 255, 255, 0.87);
+        background-color: #242424;
+      }
+    }
+
+    body {
+      min-height: 100vh;
+      overflow: hidden;
+    }
+
+    #loadingScreen {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+  <body>
+    <div id="root"></div>
+    <div id="loadingScreen">
+      <img src="/oqtima.svg" alt="Oqtima" />
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

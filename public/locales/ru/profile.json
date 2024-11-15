@@ -1,0 +1,108 @@
+{
+  "title": "Информация о профиле",
+  "personal": {
+    "title": "Личная информация",
+    "firstName": "Имя",
+    "lastName": "Фамилия",
+    "dateOfBirth": "Дата рождения",
+    "communicationLanguage": "Язык общения",
+    "countryOfResidence": "Страна проживания",
+    "setLanguage": {
+      "title": "Установить язык общения",
+      "label": "Язык",
+      "action": "Установить язык",
+      "success": "Язык успешно установлен"
+    }
+  },
+  "account": {
+    "title": "Информация об аккаунте",
+    "clientId": "ID клиента",
+    "password": "Пароль",
+    "email": "Электронная почта",
+    "mobileNumber": "Мобильный номер",
+    "notificationPreferences": "Уведомления",
+    "twoFactorAuthentication": "Двухфакторная аутентификация",
+    "changePassword": {
+      "title": "Изменить пароль",
+      "currentPassword": "Текущий пароль",
+      "currentPasswordPlaceholder": "Введите текущий пароль",
+      "newPassword": "Новый пароль",
+      "newPasswordPlaceholder": "Введите новый пароль",
+      "action": "Продолжить",
+      "success": "Пароль успешно изменен"
+    },
+    "changeEmail": {
+      "title": "Изменить email",
+      "currentEmail": "Текущий email",
+      "newEmail": "Новый email",
+      "newEmailPlaceholder": "Введите новый email",
+      "action": "Продолжить",
+      "success": "Email успешно изменен"
+    },
+    "changePhone": {
+      "title": "Изменить номер телефона",
+      "currentMobileNumber": "Текущий номер телефона",
+      "newMobileNumber": "Новый номер телефона",
+      "newMobileNumberPlaceholder": "+1234567890",
+      "action": "Продолжить",
+      "success": "Номер телефона успешно изменен"
+    },
+    "setTwoFactorAuthentication": {
+      "title": "Двухфакторная аутентификация",
+      "disabled": "Двухфакторная аутентификация не активирована",
+      "enabled": "Двухфакторная аутентификация активирована",
+      "code": {
+        "scan": "Отсканируйте QR-код с помощью Google Authenticator и введите код ниже",
+        "qrCode": "QR-код",
+        "manual": "Добавьте этот код в приложение Authenticator, если вы не можете отсканировать QR-код",
+        "label": "Код",
+        "placeholder": "Введите код"
+      },
+      "whatIs2FA": "Что такое двухфакторная аутентификация?",
+      "androidAuthenticator": "Google Аутентификатор для Android",
+      "iosAuthenticator": "Google Аутентификатор для iOS",
+      "enable": "Включить двухфакторную аутентификацию",
+      "disable": "Отлючить двухфакторную аутентификацию",
+      "success": {
+        "enabled": "Двухфакторная аутентификация активирована",
+        "disabled": "Двухфакторная аутентификация не активирована"
+      },
+      "errors": {
+        "required": "Введите код аутентификации",
+        "tooLong": "Код не может превышать 255 символов"
+      }
+    },
+    "method": {
+      "sendViaEmail": "Отправить PIN по email",
+      "sendViaSms": "Отправить PIN по SMS"
+    },
+    "pin": {
+      "label": "PIN",
+      "description": {
+        "email": "Для продолжения введите PIN, который был отправлен на email {{email}}",
+        "sms": "Для продолжения введите PIN, который был отправлен на ваш текущий номер телефона"
+      },
+      "placeholder": {
+        "email": "Введите PIN, который был отправлен на ваш email",
+        "sms": "Введите PIN, который был отправлен на ваш текущий номер телефона"
+      },
+      "resend": "Отправить повторно",
+      "resendInXSeconds": "Отправить повторно через {{seconds}} секунд"
+    }
+  },
+  "status": {
+    "title":"Статус профиля",
+    "yourProfileIs": "Ваш профиль",
+    "approved": "одобрен",
+    "pending": "ожидает",
+    "declined": "отклонен",
+    "expired": "просрочен",
+    "notUploaded": "не загружен",
+    "documents": {
+      "proofOfIdentity": "Удостоверение личности",
+      "proofOfResidence": "Подтверждение места жительства"
+    },
+    "upload": "Загрузить",
+    "reupload": "Загрузить снова"
+  }
+}
